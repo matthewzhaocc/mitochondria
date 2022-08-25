@@ -1,0 +1,12 @@
+{
+    "name": "@mitochondria/logger",
+    "version": "1.0.0",
+    "devDependencies": {
+        "@types/node": "^18.7.13",
+        "typescript": "^4.7.4"
+    },
+    "dependencies": {},
+    "scripts": {
+        "build": "tsc -b --pretty"
+    }
+}

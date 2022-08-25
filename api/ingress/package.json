@@ -1,0 +1,18 @@
+{
+    "name": "@mitochondria/ingress",
+    "version": "1.0.0",
+    "devDependencies": {
+        "@types/express": "^4.17.13",
+        "@types/http-proxy": "^1.17.9",
+        "@types/node": "^18.7.13",
+        "typescript": "^4.7.4"
+    },
+    "dependencies": {
+        "express": "^4.18.1",
+        "http-proxy": "^1.18.1",
+        "@mitochondria/logger": "*"
+    },
+    "scripts": {
+        "build": "tsc -b --pretty"
+    }
+}
